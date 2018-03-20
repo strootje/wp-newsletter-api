@@ -1,0 +1,10 @@
+{
+	"autoload": {
+		"psr-4": {"WPNewsletterApi\\": "wp-src/"}
+  },
+
+	"require": {
+		"pacely/mailchimp-apiv3": "dev-master",
+		"league/oauth2-client": "dev-master"
+	}
+}
