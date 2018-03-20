@@ -21,7 +21,6 @@ class AdminPage {
 	}
 
 	public function enqueueScripts() {
-		wp_enqueue_script('oauth-helper', plugins_url('/wp-respapi-newsletter/src/assets/js/oauth-helper.js'), [ 'jQuery' ]);
 	}
 
 	public function renderPage() {

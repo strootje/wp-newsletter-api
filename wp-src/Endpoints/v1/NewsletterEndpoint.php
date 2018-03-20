@@ -5,8 +5,8 @@ use WPNewsletterApi\Client\Client;
 use WPNewsletterApi\Client\ClientFactory;
 
 class NewsletterEndpoint {
-	private static $namespace = 'wpran/v1';
-	private static $route = '/newsletter';
+	private static $namespace = 'newsletter/v1';
+	private static $route = '/subscribe';
 
 	private $options;
 	private $client;
