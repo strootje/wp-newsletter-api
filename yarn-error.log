@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\bas\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js composer
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\bas\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Program Files\nodejs;C:\Users\bas\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\bas\AppData\Roaming\npm
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.3.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+  	"private": true,
+  	"name": "timber.web",
+  	"version": "0.1.0",
+  	"scripts": {
+  		"composer": "docker run --rm -it -v u:\\projects\\myblog\\wp-content\\plugins\\wp-restapi-newsletter:/app composer install"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 1
+  Command: C:\Windows\system32\cmd.exe
+  Arguments: /d /s /c docker run --rm -it -v u:\projects\myblog\wp-content\plugins\wp-restapi-newsletter:/app composer install
+  Directory: u:\projects\myblog\wp-content\plugins\wp-newsletter-api
+  Output:
+  
+      at ProcessTermError.MessageError (C:\Users\bas\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at new ProcessTermError (C:\Users\bas\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:226:113)
+      at ChildProcess.<anonymous> (C:\Users\bas\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:30281:17)
+      at ChildProcess.emit (events.js:159:13)
+      at maybeClose (internal/child_process.js:943:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)

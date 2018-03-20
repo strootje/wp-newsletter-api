@@ -12,13 +12,6 @@
 			<table class='form-table'>
 				<tbody>
 					<tr>
-						<th scope='row'>oauth2 button</th>
-						<td>
-							<input type='button' class='button' value='<?php _e('Authenticate', PLUGINNAME); ?>' />
-						</td>
-					</tr>
-
-					<tr>
 						<th scope='row'><?php _e('ApiKey', PLUGINNAME); ?></th>
 						<td><input type='text' class='regular-text' name='newsletter_options[mailchimp][apikey]' value='<?php echo $options['mailchimp']['apikey']; ?>' /></td>
 					</tr>

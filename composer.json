@@ -4,7 +4,6 @@
   },
 
 	"require": {
-		"pacely/mailchimp-apiv3": "dev-master",
-		"league/oauth2-client": "dev-master"
+		"pacely/mailchimp-apiv3": "dev-master"
 	}
 }

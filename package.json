@@ -1,8 +1,8 @@
 {
 	"private": true,
-	"name": "timber.web",
+	"name": "wp-newsletter-api",
 	"version": "0.1.0",
 	"scripts": {
-		"composer": "docker run --rm -it -v u:\\projects\\myblog\\wp-content\\plugins\\wp-restapi-newsletter:/app composer install"
+		"composer": "docker run --rm -it -v u:\\projects\\myblog\\wp-content\\plugins\\wp-newsletter-api:/app composer install"
 	}
 }
