@@ -1,8 +1,8 @@
 {
 	"private": true,
-	"name": "wp-newsletter-api",
+	"name": "wp-plugin-newsletter-api",
 	"version": "0.1.0",
 	"scripts": {
-		"composer": "docker run --rm -it -v u:\\projects\\myblog\\wp-content\\plugins\\wp-newsletter-api:/app composer install"
+		"composer": "docker run --rm -it -v u:\\projects\\myblog\\wp-content\\plugins\\wp-plugin-newsletter-api:/app composer install"
 	}
 }

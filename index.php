@@ -10,7 +10,7 @@ License: Mozilla Public License, version 2.0
 License URI: https://www.tldrlegal.com/l/mpl-2.0
 */
 
-const PLUGINNAME = 'wp-newsletter-api';
+const PLUGINNAME = 'wp-plugin-newsletter-api';
 include __DIR__ . '/vendor/autoload.php';
 use WPNewsletterApi\Plugin;
 
