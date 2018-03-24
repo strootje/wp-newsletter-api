@@ -7,7 +7,7 @@ class ClientFactory {
 	public static function canCreate( $variant = null ) {
 		$options = get_option('newsletter_options', false);
 		return ($variant && isset($options[$variant])) || ($options && (
-			isset($options['mailchimp']) ||
+			(isset($options['mailchimp']) && isset($options['mailchimp']['listid'])) ||
 			isset($options['__more mail providers__'])
 		));
 	}

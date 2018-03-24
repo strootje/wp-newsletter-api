@@ -13,7 +13,9 @@ class NewsletterEndpoint {
 
 	public function __construct() {
 		$this->options = get_option('newsletter_options', false)['mailchimp'];
-		$this->client = ClientFactory::create();
+		if (ClientFactory::canCreate()) {
+			$this->client = ClientFactory::create();
+		}
 	}
 
 	public function register() {
